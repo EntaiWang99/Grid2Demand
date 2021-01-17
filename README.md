@@ -34,6 +34,7 @@ For each OD pair, a typical gravity model is applied to calculate zone-to-zone d
 We will use University of Maryland, College Park as an example to illustrate how to use GRID2DEMAND.
 
 **Step 1: Determine the research boundary and download .osm file from OpenStreetMap**
+
 Adjust the map to the location of interest and click on the Export1 button on the top.
 
 ![Figure](https://github.com/EntaiWang99/Grid2Demand/tree/main/img/2.1.jpg)
@@ -43,6 +44,7 @@ Then, obtain the latitude and longitude coordinates (users can manually select a
 ![Figure](https://github.com/EntaiWang99/Grid2Demand/tree/main/img/2.2.jpg)
 
 **Step 2: Execute OSM2GMNS to get network files in GMNS format**
+
 Open the Python IDE such as Pycharm for a typical configuration. Then, OSM2GMNS converts map.osm file in OSM format into a network file in GMNS format.
 ```python
 import osm2gmns as og
@@ -56,6 +58,7 @@ og.outputNetToCSV(net, output_folder)
 Please note that poi.csv may need to be edited manually in case of information loss。
 
 **Step 3: Execute GRID2DEMAND Python code**
+
 (1)Import the package and read input network data
 ```python
 import grid2demand as gd
@@ -101,6 +104,7 @@ Configurate working dictionary in the Python IDE (e.g., Pycharm). Then, execute 
 ![Figure](https://github.com/EntaiWang99/Grid2Demand/tree/main/img/4.1.jpg)
 
 **Step 4: Visualization in QGIS**
+
 Open QGIS and add Delimited Text Layer of the output files.
 
 ![Figure](https://github.com/EntaiWang99/Grid2Demand/tree/main/img/4.2.jpg)
