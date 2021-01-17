@@ -2,7 +2,7 @@
 
 **Template Code and Test Data Set: https://github.com/EntaiWang99/Grid2Demand/tree/main/test_file**
 
-*Please Visit: https://pypi.org/project/grid2demand/0.0.0.20/*
+*Please Visit: https://pypi.org/project/grid2demand/0.0.0.21/*
 
 ## 1. What is GRID2DEMAND?
 GRID2DEMAND is a quick trip generation and distribution tool based on the four-step travel model. First, the research region is divided into grid zones of the same scale. POI nodes are used to generate node production/attraction. Second, trip distribution is achieved by a typical gravity model.
@@ -25,16 +25,6 @@ Accessibility is measured by zone-to-zone distance according to zone centroid co
 
 ### 1.5. Gravity model
 For each OD pair, a typical gravity model is applied to calculate zone-to-zone demand volume. 
-
-$$
-T_{i j}=P_{i} \cdot \frac{A_{j} \cdot F_{i j} \cdot K_{i j}}{\sum_{j}\left(A_{j} \cdot F_{i j} \cdot K_{i j}\right)} 
-$$
-
-$$
-F_{i j}=e^{\beta d_{i j}-g}
-$$
-
-where $T_{i,j}$ is total trips from zone 𝑖 to zone 𝑗; $P_{i}$,$A_{j}$ are productions in zone 𝑖 and attractions in zone 𝑗, respectively; $F_{i,j}$ is the friction factor for travel from zone 𝑖 to zone 𝑗 ; $K_{i,j}$ is the correction factor for travel from zone 𝑖 to zone 𝑗, equal to 1 by default; parameter $\beta$ is equal to -0.1 by default; parameter $g$ is equal to 0 by default.
 
 **The framework of GRID2DEMAND is illustrated in the following figure.**
 
