@@ -28,23 +28,21 @@ For each OD pair, a typical gravity model is applied to calculate zone-to-zone d
 
 **The framework of GRID2DEMAND is illustrated in the following figure.**
 
-![Figure](https://github.com/EntaiWang99/Grid2Demand/tree/main/img/1.jpg)
+![](img/1.jpg)
 
 ## 2. How to use GRID2DEMAND?
 We will use University of Maryland, College Park as an example to illustrate how to use GRID2DEMAND.
 
 **Step 1: Determine the research boundary and download .osm file from OpenStreetMap**
-
 Adjust the map to the location of interest and click on the Export1 button on the top.
 
-![Figure](https://github.com/EntaiWang99/Grid2Demand/tree/main/img/2.1.jpg)
+![](2.1.jpg)
 
 Then, obtain the latitude and longitude coordinates (users can manually select a different area2). Lastly, click on the Export3 button found in the middle of the navigator to download an OSM data file. For a very large area of interest, users need to click the link of “Overpass API” to obtain a map file.
 
-![Figure](https://github.com/EntaiWang99/Grid2Demand/tree/main/img/2.2.jpg)
+![](img/2.2.jpg)
 
 **Step 2: Execute OSM2GMNS to get network files in GMNS format**
-
 Open the Python IDE such as Pycharm for a typical configuration. Then, OSM2GMNS converts map.osm file in OSM format into a network file in GMNS format.
 ```python
 import osm2gmns as og
@@ -53,12 +51,11 @@ og.connectPOIWithNet(net)
 og.outputNetToCSV(net, output_folder)
 ```
 
-![Figure](https://github.com/EntaiWang99/Grid2Demand/tree/main/img/2.3.jpg)
+![](img/2.3.jpg)
 
 Please note that poi.csv may need to be edited manually in case of information loss。
 
 **Step 3: Execute GRID2DEMAND Python code**
-
 (1)Import the package and read input network data
 ```python
 import grid2demand as gd
@@ -101,19 +98,18 @@ gd.outputCSV("./data_folder")
 
 Configurate working dictionary in the Python IDE (e.g., Pycharm). Then, execute GRID2DEMAND to get zone-to-zone demand, generating four files which are highlighted in blue. 
 
-![Figure](https://github.com/EntaiWang99/Grid2Demand/tree/main/img/4.1.jpg)
+![](img/4.1.jpg)
 
 **Step 4: Visualization in QGIS**
-
 Open QGIS and add Delimited Text Layer of the output files.
 
-![Figure](https://github.com/EntaiWang99/Grid2Demand/tree/main/img/4.2.jpg)
+![](img/4.2.jpg)
 
 Then Open the Properties window of the demand layer. Set the symbology as graduated symbols by size.
 
-![Figure](https://github.com/EntaiWang99/Grid2Demand/tree/main/img/4.3.jpg)
+![](img/4.3.jpg)
 
 Zone-to-zone demand can be visualized with a base map.
 
-![Figure](https://github.com/EntaiWang99/Grid2Demand/tree/main/img/4.4.jpg)
+![](img/4.4.jpg)
 
