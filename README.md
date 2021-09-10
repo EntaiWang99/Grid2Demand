@@ -4,7 +4,7 @@
 
 *Please Visit: https://pypi.org/project/grid2demand/0.0.0.24/*
 
-*Email: entaiwang@bjtu.edu.cn
+*Email: entaiwang@bjtu.edu.cn*
 
 ## 1. What is GRID2DEMAND?
 GRID2DEMAND is a quick trip generation and distribution tool based on the four-step travel model. First, the research region is divided into grid zones of the same scale. POI nodes are used to generate node production/attraction. Second, trip distribution is achieved by a typical gravity model.
