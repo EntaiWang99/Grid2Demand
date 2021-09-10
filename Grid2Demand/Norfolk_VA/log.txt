@@ -1,0 +1,1 @@
+2021-05-27 16:37:59,264 - grid2demand_0525a.py[line:923] - INFO: Latitude used for grid partition = 30

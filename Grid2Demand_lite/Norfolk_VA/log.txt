@@ -1,0 +1,30 @@
+2021-07-12 11:30:35,737 - grid2demand_0712a_lite.py[line:445] - INFO: Latitude used for grid partition = 30
+2021-07-12 11:30:36,791 - grid2demand_0712a_lite.py[line:773] - INFO: Number of zones including virtual zones = 128
+2021-07-12 11:30:37,013 - grid2demand_0712a_lite.py[line:1035] - INFO: Tab of trip purpose used in grid2demand = 1
+2021-07-12 11:30:37,013 - grid2demand_0712a_lite.py[line:1036] - INFO: Total number of poi nodes with unmatched production rates = 0
+2021-07-12 11:30:37,013 - grid2demand_0712a_lite.py[line:1038] - INFO: Total number of poi nodes with unmatched attraction rates = 0
+2021-07-12 11:30:37,019 - grid2demand_0712a_lite.py[line:1140] - INFO: This is not a node producing or attracting demand. Default value of production and attraction is 0.
+2021-07-12 11:30:37,201 - grid2demand_0712a_lite.py[line:1239] - INFO: Latitude used for calculating accessibility = 30
+2021-07-12 11:30:37,328 - grid2demand_0712a_lite.py[line:1273] - INFO: Number of OD pairs = 16384
+2021-07-12 11:30:37,337 - grid2demand_0712a_lite.py[line:1287] - INFO: Largest accessibility of distance = 36.16 km
+2021-07-12 11:30:37,337 - grid2demand_0712a_lite.py[line:1288] - INFO: Average accessibility of distance = 14.75 km
+2021-07-12 11:30:37,397 - grid2demand_0712a_lite.py[line:1345] - INFO: Default values of friction factor coefficients under trip purpose 1: 
+a=28507
+b=-0.02
+c=-0.123
+2021-07-12 11:30:37,501 - grid2demand_0712a_lite.py[line:1468] - INFO: 
+The OD demand is controlled by total population. The adjustment coefficient is 0.0373
+2021-07-12 11:30:37,507 - grid2demand_0712a_lite.py[line:1483] - INFO: Top 1 O/D pair: zone 83->zone 63, volume = 2.760606214202443
+2021-07-12 11:30:37,508 - grid2demand_0712a_lite.py[line:1483] - INFO: Top 2 O/D pair: zone 83->zone 74, volume = 2.27563485224796
+2021-07-12 11:30:37,508 - grid2demand_0712a_lite.py[line:1483] - INFO: Top 3 O/D pair: zone 83->zone 93, volume = 2.27563485224796
+2021-07-12 11:30:37,508 - grid2demand_0712a_lite.py[line:1483] - INFO: Top 4 O/D pair: zone 83->zone 54, volume = 1.939885447817933
+2021-07-12 11:30:37,508 - grid2demand_0712a_lite.py[line:1483] - INFO: Top 5 O/D pair: zone 83->zone 64, volume = 1.939885447817933
+2021-07-12 11:30:37,509 - grid2demand_0712a_lite.py[line:1483] - INFO: Top 6 O/D pair: zone 83->zone 72, volume = 1.9025799584368188
+2021-07-12 11:30:37,509 - grid2demand_0712a_lite.py[line:1483] - INFO: Top 7 O/D pair: zone 83->zone 55, volume = 1.529525064625678
+2021-07-12 11:30:37,509 - grid2demand_0712a_lite.py[line:1483] - INFO: Top 8 O/D pair: zone 83->zone 82, volume = 1.4549140858634497
+2021-07-12 11:30:37,509 - grid2demand_0712a_lite.py[line:1483] - INFO: Top 9 O/D pair: zone 83->zone 73, volume = 1.3803031071012215
+2021-07-12 11:30:37,509 - grid2demand_0712a_lite.py[line:1483] - INFO: Top 10 O/D pair: zone 83->zone 81, volume = 1.3429976177201075
+2021-07-12 11:30:37,521 - grid2demand_0712a_lite.py[line:1500] - INFO: Zone-to-zone OD pair with largest volume is from I3 to G3
+2021-07-12 11:30:37,601 - grid2demand_0712a_lite.py[line:1536] - INFO: Origin zone with largest production volume is I3
+2021-07-12 11:30:37,601 - grid2demand_0712a_lite.py[line:1537] - INFO: Destination zone with largest attraction volume is G9
+2021-07-12 11:30:37,750 - grid2demand_0712a_lite.py[line:1580] - INFO: Number of agents = 10945

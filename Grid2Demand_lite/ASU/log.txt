@@ -1,0 +1,14 @@
+2021-07-11 12:57:22,300 - grid2demand_0712a_lite.py[line:445] - INFO: Latitude used for grid partition = 30
+2021-07-11 12:57:23,733 - grid2demand_0712a_lite.py[line:774] - INFO: Number of zones including virtual zones = 278
+2021-07-11 12:57:23,794 - grid2demand_0712a_lite.py[line:1036] - INFO: Tab of trip purpose used in grid2demand = 1
+2021-07-11 12:57:23,794 - grid2demand_0712a_lite.py[line:1037] - INFO: Total number of poi nodes with unmatched production rates = 0
+2021-07-11 12:57:23,794 - grid2demand_0712a_lite.py[line:1039] - INFO: Total number of poi nodes with unmatched attraction rates = 0
+2021-07-11 12:57:23,802 - grid2demand_0712a_lite.py[line:1141] - INFO: This is not a node producing or attracting demand. Default value of production and attraction is 0.
+2021-07-11 12:57:23,844 - grid2demand_0712a_lite.py[line:1240] - INFO: Latitude used for calculating accessibility = 30
+2021-07-11 12:57:24,648 - grid2demand_0712a_lite.py[line:1274] - INFO: Number of OD pairs = 77284
+2021-07-11 12:57:24,700 - grid2demand_0712a_lite.py[line:1288] - INFO: Largest accessibility of distance = 3.14 km
+2021-07-11 12:57:24,701 - grid2demand_0712a_lite.py[line:1289] - INFO: Average accessibility of distance = 1.17 km
+2021-07-11 12:57:24,982 - grid2demand_0712a_lite.py[line:1346] - INFO: Default values of friction factor coefficients under trip purpose 1: 
+a=28507
+b=-0.02
+c=-0.123
